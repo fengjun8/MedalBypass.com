@@ -22,8 +22,8 @@
 
 ### GET:
 
-`[https://medalbypass.vercel.app](https://medalbypass.com)/api/clip?url=<Url of Medal Clip>`  
-`[https://medalbypass.vercel.app](https://medalbypass.com)/api/clip?id=<ID of Medal Clip>`
+`[https://medalbypass.vercel.app](https://medalbypass.com/api/clip?url=<Url of Medal Clip>)`  
+`[https://medalbypass.vercel.app](https://medalbypass.com/api/clip?id=<ID of Medal Clip>)`
 
 ### POST
 
