@@ -1,8 +1,8 @@
-# [Medal Bypass](https://medalbypass.web.app)
+# [Medal Bypass]([https://medalbypass.web.app](https://medalbypass.com))
 
 ### Where
 
-##### Check the website here: [https://medalbypass.vercel.app](https://medalbypass.vercel.app)
+##### Check the website here:[https://medalbypass.com](https://medalbypass.com)
 
 ### What
 
@@ -22,8 +22,8 @@
 
 ### GET:
 
-`https://medalbypass.vercel.app/api/clip?url=<Url of Medal Clip>`  
-`https://medalbypass.vercel.app/api/clip?id=<ID of Medal Clip>`
+`[https://medalbypass.vercel.app](https://medalbypass.com)/api/clip?url=<Url of Medal Clip>`  
+`[https://medalbypass.vercel.app](https://medalbypass.com)/api/clip?id=<ID of Medal Clip>`
 
 ### POST
 
