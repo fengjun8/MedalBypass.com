@@ -1,49 +1,26 @@
-# [Medal Bypass]([https://medalbypass.web.app](https://medalbypass.com))
+# Medal Bypass
 
-### Where
+Free, in-browser tool that downloads Medal.tv clips without the watermark
+— no login, no install, nothing uploaded.
 
-##### Check the website here:[https://medalbypass.com](https://medalbypass.com)
+Website: https://medalbypass.com
 
 ### What
-
-##### A tool to download Medal clips without watermarks!
+Paste a medal.tv clip link, get the clean MP4 back.
 
 ### Why
-
-##### Medal has a paywall in the way of downloading clips without watermaks...
+Medal watermarks clips unless you pay for Premium. This tool fetches
+the file the player is already streaming, so you save the clean original.
 
 ### How
+Open https://medalbypass.com, paste the link, press Get clip, save the MP4.
+Works in desktop, iPhone and Android browsers.
 
-##### Fetch . Simple
+### No public API
+Everything runs in your browser, nothing is sent to our servers,
+so there is no server-side endpoint to call.
 
----
-
-## API - Get through a GET / POST Request
-
-### GET:
-
-`[https://medalbypass.vercel.app](https://medalbypass.com/api/clip?url=<Url of Medal Clip>)`  
-`[https://medalbypass.vercel.app](https://medalbypass.com/api/clip?id=<ID of Medal Clip>)`
-
-### POST
-
-```
-curl -X POST \
-  -H "Content-Type: application/json" \
-  -d '{"url":"<your-clip-url>"}' \
-  https://medalbypass.vercel.app/api/clip
-```
-
-##### `'{"url":"<your-url>"}'` can be replaced with `'{"id":"<your-clip-id>"}'`
-
-### RESPONSE (JSON)
-
-```json
-{
-  "valid": true/false,
-  "src": "<MEDAL CLIP MP4 URL>"   *IF VALID
-  "reasoning": "<REASON FOR ERROR>"   *IF INVALID
-}
-```
-
-###### By Tyson3101
+### Credits
+Based on Tyson3101's original Medal-Bypass. This fork is maintained by
+fengjun8 and points to https://medalbypass.com — the deployment at
+medalbypass.vercel.app is not ours.
